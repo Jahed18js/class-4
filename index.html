@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Html-form</title>
+
+    <style>
+        h1{
+            
+            color: brown;
+            background-color: aquamarine;
+            text-align: center;
+            
+
+        }
+        form{
+            color: rgb(36, 4, 4);
+            background-color: rgb(173, 196, 188);
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+   
+
+    <form action="">
+        <h1 >Registration Form:</h1>
+
+
+        <input type="text" placeholder="First Name">
+        <br><br>
+        <input type="text" placeholder="SurName">
+        <br><br>
+        <input type="text" placeholder="Father`s Name">
+        <br><br>
+        <input type="text" placeholder="Mother`s Name">
+        <br><br>
+        <input type="number" placeholder="Mobaile Number">
+        <br><br>
+        <input type="email" placeholder="Email">
+        <br><br>
+        <input type="password" id="ps" placeholder="Password">
+        <br>
+        <label for="ps">Please enter the password from SMS</label>
+        <br><br>
+
+        <!-- Date -->
+        <label for="br"><b>Brithday</b> :</label>
+        <input type="date" id="br">
+        <br><br>
+        <label for="pr"><b>Choose Your Lecture time:</b></label>
+        <input type="datetime-local" id="pr">
+        
+       
+      <br><br>
+      
+
+        <!-- radio -->
+        <h3>Select Your Grnder:</h3>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="custome">custome</label>
+        <input type="radio" name="gender" id="custome">
+        <label for="other`s">other`s</label>
+        <input type="radio" name="gender" id="other`s">
+        <br><br><br>
+        
+
+        <!-- checkbox -->
+        <h3>Please Mark Your Hobbys:</h3>
+        <label for="Reading"> Reading</label>
+        <input type="checkbox"id="Reading">
+        <label for="garden">Gardening</label>
+        <input type="checkbox" id="garden">
+        <label for="travel">Traveling</label>
+        <input type="checkbox" id="travel">
+        <br>
+        <label for="photo">Photo_Graphy</label>
+        <input type="checkbox" id="photo">
+        <label for="teach">Teaching</label>
+        <input type="checkbox" id="teach">
+        <label for="sing">Singing</label>
+        <input type="checkbox" id="sing">
+        <label for="fotball">Fotball</label>
+        <input type="checkbox" id="fotball">
+        <br><br><br>
+
+        <!-- file -->
+        <h3>Uploade File:</h3>
+        <label for="img">Please Uploade Your Formal-Pic in png or jpg form:</label>
+        <input type="file" accept=".png, .jpg" id="img">
+        <br><br>
+        <label for="bio">Send Your Bio-Data file:</label>
+        <input type="file" accept=".exe" id="bio">
+        <br><br>
+        <label for="rd">Submite Your Record video of Treaning:</label>
+        <input type="file" accept=".mp4" id="rd">
+        <br><br><br>
+
+
+        <!-- color -->
+       <label for="color"> Please Choose Your Favorit Color:</label>
+        <input type="color" id="color">
+        <br><br>
+
+        <!-- hidden -->
+        <input type="hidden">
+        <br>
+
+        <!-- range -->
+        <input type="range">
+        <br>
+
+        <!--search  -->
+        <input type="search" placeholder="Search anything">
+        <br><br>
+
+        <!-- url -->
+        <label for="fb">Facebook-profile_link:</label>
+        <input type="url" id="fb" placeholder="Facebook-profile_link">
+        <br><br>
+
+        <!-- Button -->
+        <button type="reset">RESET</button>
+        <button type="submit">SUBMIT</button>
+
+    </form>
+
+</body>
+</html>
